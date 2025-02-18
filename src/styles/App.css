@@ -1,0 +1,51 @@
+#html {
+    /* html 여백 없애기 */
+    margin: 0;
+    padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+#root {
+    max-width: 100vw;
+    margin: 0;
+    padding: 0;
+    font-family: 'Pretendard-Regular', 'Dovemayo_gothic', sans-serif;
+    text-align: center;
+}
+
+@font-face {
+    font-family: "Pretendard-Regular";
+    font-weight: normal;
+    src: url("./fonts/Pretendard-Regular.otf") format("truetype");
+}
+
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+  
+@font-face {
+    font-family: 'Dovemayo_gothic';
+    font-weight: 400;
+    font-display: swap;
+    src: local('Dovemayo_gothic'),
+        url('./fonts/Dovemayo_gothic.ttf') format('truetype');
+}
+
+/* Assuming you're using a class named 'custom-switch' to style your Switch component */
+.custom-switch .ant-switch-inner {
+    font-size: 24px; /* Adjust the font size according to your preference */
+}
